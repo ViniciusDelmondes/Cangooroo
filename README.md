@@ -14,6 +14,10 @@ O Projeto:
 <p>
 Este projeto foi realizado para critério de avaliação referente ao processo seletivo para desenvolvedor Front-end na empresa T4W. Tem como objetivo principal
 realizar pesquisa de hotéis com um determinado critério e visualizar uma lista de hotéis disponíveis com possibilidade de ordenar pelo mais barato.
+ 
+Conta com um visual super atrativo e um design super elegante.
+
+Responsividade para todos os aparelhos, reutilização de componentes, código organizado, padronizado e boa performance no carregamento da página.
 </p>
 
 </br>
