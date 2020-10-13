@@ -1,0 +1,117 @@
+.map-container{
+  width: 100%;
+  z-index: 0;
+  position: static;
+}
+
+#map {
+  object-fit: cover;
+  height: 190px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+header h1{
+  font-size: 22px;
+}
+
+/* Media Queries all display devices  */
+
+@media (max-width: 2560px){
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 460px;
+    border-radius: 0px 15px 15px 0px;
+  }
+}
+
+@media (max-width: 1440px){
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 460px;
+    border-radius: 0px 15px 15px 0px;
+  }
+}
+
+@media (max-width: 1439px) and (min-width: 1025px){
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 520px;
+    border-radius: 0px 15px 15px 0px;
+  }
+}
+
+
+@media (max-width: 1024px){
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 300px;
+    border-radius: 0px 15px 15px 0px;
+  }
+}
+
+@media (max-width: 768px){
+  .map-container{
+    width: 100%;
+    z-index: 0;
+    margin-top: 35px;
+  }
+  
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 512px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 600px){
+  #map {
+    position: static;
+    object-fit: cover;
+    height: 150px;
+    width: 450px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 599px) and (min-width: 426px){
+  #map {
+    position: static;
+    object-fit: cover;
+    height: 150px;
+    width: 332px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 425px){
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 346px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 375px){
+  #map {
+    object-fit: cover;
+    height: 190px;
+    width: 305px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}
+
+@media (max-width: 320px){
+  #map {
+    object-fit: cover;
+    height: 170px;
+    width: 256px;
+    border-radius: 0px 0px 15px 15px;
+  }
+}

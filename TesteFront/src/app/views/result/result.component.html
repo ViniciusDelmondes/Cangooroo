@@ -1,0 +1,31 @@
+<app-header></app-header>
+<app-topbar></app-topbar>
+
+<div class="result-container">
+  <div class="result-content">
+    <div class="result-box">
+      <header class="first-line-box">
+        <h1> Available Hotels </h1>
+        <button (click)="orderByPrice()">
+          <img class="img-btn" src="../../../assets/icons/ordenar.png"/>
+          <h2>Sort by Price</h2>
+        </button>
+      </header>
+      <main class="hotels-views">
+        <app-hotels *ngFor="let item of hotelsList"
+          thumb={{item.urlThumb}}
+          name={{item.name}}
+          locale={{item.address}}
+          rating={{item.taRating}}
+          ratingImg={{item.taRatingImageUrl}}
+          category={{item.category}}
+          lat={{item.latitude}}
+          lgn={{item.longitude}}
+          price=${{item.price}}
+          website={{item.website}}
+        >
+        </app-hotels>
+      </main>
+    </div>
+  </div>
+</div>

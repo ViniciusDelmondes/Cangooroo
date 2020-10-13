@@ -1,0 +1,54 @@
+.area-product-container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../../assets/travel-aqua.jpg');
+}
+
+.area-product-content{
+    padding-top: 74px;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.area-product-box{
+    width: 100%;
+    height: 350px;
+    background-color: #1C1C1C;
+    opacity: .8;
+    padding-left: 0px;
+}
+
+.area-options-title{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.area-options-title h1{
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 10px;
+    padding-left: 26px;
+}
+
+.area-options-title img{
+    padding-top: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+@media (max-width: 768px) {
+    .area-product-box{
+        width: 100%;
+        height: 850px;
+    }
+
+    .area-product-container{
+        overflow-y: scroll;
+    }
+}
+
+
+

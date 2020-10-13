@@ -1,0 +1,89 @@
+<div class="container-form">
+    <div class="content-form"> 
+        <form>
+            <fieldset>
+                <div class="form-field-linefirst">
+                    <div class="field">
+                        <label for="destination">Destination</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.DestinationId" 
+                            type="text" 
+                            name="travel" 
+                            id="destination"
+                            placeholder="Ex: Orlando"
+                        /> 
+                    </div>
+                    <div class="field">
+                        <label for="nights">Number Nights</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.NumNights" 
+                            type="number" 
+                            name="travel" 
+                            id="nights"
+                            placeholder="Ex: 2"
+                        /> 
+                    </div>
+                    <div class="field">
+                        <label for="datecheckin">Date Check-in</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.CheckinDate" 
+                            type="date" 
+                            name="travel" 
+                            id="datecheckin"
+                        /> 
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend> Rooms </legend>
+                <div class="form-field-linesecond">
+                    <div class="field">
+                        <label for="quantify">Quantity</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.SearchRooms[0].NumAdults" 
+                            type="number" 
+                            name="travel" 
+                            id="quantify"
+                            placeholder="Quantity of Rooms"
+                        /> 
+                    </div>
+                    <div class="field">
+                        <label for="adults">Adults</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.SearchRooms[0].ChildAges" 
+                            type="number" 
+                            name="travel" 
+                            id="adults"
+                            placeholder="Quantity of Adults"
+                        /> 
+                    </div>
+                    <div class="field">
+                        <label for="childrens">Children Age</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.SearchRooms[0].Quantity" 
+                            type="number" 
+                            name="travel" 
+                            id="childrens"
+                            placeholder="Children Age"
+                        /> 
+                    </div>
+                    <div class="field">
+                        <label for="code">Code Nationality</label>
+                        <input 
+                            [(ngModel)]="requestModel.Criteria.MainPaxCountryCodeNationality" 
+                            type="text" 
+                            name="travel" 
+                            id="code"
+                            placeholder="Ex: BR"
+                        /> 
+                    </div>
+                </div>
+            </fieldset>
+            <div class="btn-area">
+                <button type="button" (click)="capturarDados()"> 
+                   <a routerLink="/result"> Search </a>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #a4f76d;
+    background-image: linear-gradient(46deg, #a4f76d 0%, #b0ee5f 54%, #27cd65 100%);
+    background-repeat: no-repeat;
+}

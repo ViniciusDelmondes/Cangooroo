@@ -1,0 +1,51 @@
+<div class="hotels-container">
+  <div class="hotels-content">
+    <div class="hotels-box">
+      <div class="box-line-first-column">
+        <img class="thumb" src={{thumb}}/>
+      </div>
+      <div class="box-line-second-column">
+        <div class="box-line-column-informations">
+          <header>
+            <h1> {{name}} </h1>
+            <h2> {{locale}} </h2>
+          </header> 
+          <main class="main-informations">
+            <div class="rating">
+              <img src="../../../../assets/icons/silhueta-em-forma-de-coracao.png"/>
+            </div>
+              <h1> Rating: {{rating}}</h1>
+            <div class="ratingImg">
+              <img src={{ratingImg}}/>
+            </div>
+            <div class="category">
+              <img src="../../../../assets/icons/estrela.png"/>
+            </div>
+              <h1> Category: {{category}}</h1>
+          </main>
+        </div>
+        <footer>
+          <div class="btn-website">
+            <button>
+              <img class="btn-img-web" src="../../../../assets/icons/web.png"/>
+              <a href={{website}} target="_blank">
+                Website
+              </a>
+            </button>
+          </div>
+          <div class="price">
+            <h1>{{price}}</h1>
+          </div>
+        </footer>
+      </div>
+      <div class="box-line-three-column">
+        <div class="map-area">
+          <app-map
+            lat={{lat}}
+            lgn={{lgn}}
+          ></app-map>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
