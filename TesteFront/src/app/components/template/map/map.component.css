@@ -21,7 +21,7 @@ header h1{
   #map {
     object-fit: cover;
     height: 190px;
-    width: 460px;
+    width: 500px;
     border-radius: 0px 15px 15px 0px;
   }
 }
@@ -39,7 +39,7 @@ header h1{
   #map {
     object-fit: cover;
     height: 190px;
-    width: 520px;
+    width: 610px;
     border-radius: 0px 15px 15px 0px;
   }
 }
