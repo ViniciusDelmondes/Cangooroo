@@ -19,7 +19,7 @@ realizar pesquisa de hotéis com um determinado critério e visualizar uma lista
 </br>
 
 <h2>
-Objetivo
+Objetivo Proposto
 </h2>
 <p>
 Desenvolver uma página onde o usuário possa pesquisar disponibilidade de hotéis através de um critério e possa visualizar os resultados em uma lista ordenada pelo hotel mais barato, pelo desktop ou mobile.</p>
