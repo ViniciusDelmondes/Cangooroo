@@ -12,7 +12,8 @@
 O Projeto:
 </h2>
 <p>
-Este projeto foi realizado para critério de avaliação referente ao processo seletivo para desenvolvedor Front-end na empresa T4W.
+Este projeto foi realizado para critério de avaliação referente ao processo seletivo para desenvolvedor Front-end na empresa T4W. Tem como objetivo principal
+realizar pesquisa de hotéis com um determinado critério e visualizar uma lista de hotéis disponíveis com possibilidade de ordenar pelo mais barato.
 </p>
 
 </br>
