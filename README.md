@@ -31,5 +31,5 @@ Detalhes:
 <h3 align="center"> Web </h3>
 <br/>
 <p align="center">
- <img src="https://user-images.githubusercontent.com/60788150/94083834-89834200-fdda-11ea-8170-ac284ec25002.PNG" >
+ <img src="https://user-images.githubusercontent.com/60788150/95810340-1b4de300-0ce7-11eb-939f-845823d3918d.PNG" >
 </p>
