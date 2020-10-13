@@ -58,12 +58,13 @@ Para acessar o Layout do projeto utilize o link: https://www.figma.com/file/aekA
 Para clonar e rodar esta aplicação, é necessário ter o Git e o Node.js instalado em seu computador.
 </p>
     # Clonar esse repositório </br>
-    **$ git clone https://github.com/ViniciusDelmondes/Cangooroo**
+    
+    $ git clone https://github.com/ViniciusDelmondes/Cangooroo
     
     # Navegue até o diretório
     
     # Abrir no VSCode
-   ** $ code .**
+    $ code .
 
 <h2>
  
@@ -74,10 +75,16 @@ Para clonar e rodar esta aplicação, é necessário ter o Git e o Node.js insta
     # Navegue até o diretório
     
     # Instale as dependências necessarias
-   ** $ npm install**
+    $ npm install
     
     # Rode
-    **$ npm start**
+    $ npm start
     
     # running on port 4200
 </p>
+
+<br/>
+
+<h4>
+ Projeto realizado com zelo e carinho por: Vinicius Delmondes
+</h4>
