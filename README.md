@@ -39,7 +39,7 @@ Detalhes:
 <h3 align="center"> Responsividade </h3>
 <br/>
 <p align="center">
- <img src="https://user-images.githubusercontent.com/60788150/95810618-c6f73300-0ce7-11eb-85a9-25390d29cf23.PNG" >
+ <img src="https://user-images.githubusercontent.com/60788150/95811873-9664c880-0cea-11eb-88a9-41ffc87c6391.PNG" >
 </p>
 
 <br/>
