@@ -51,6 +51,8 @@ Layout Figma
 Para acessar o Layout do projeto utilize o link: https://www.figma.com/file/aekAxrKlHtaQeMtHPnoTvN/Cangooroo?node-id=0%3A1
 </p>
 
+</br>
+
 <h2>
  Como usar:
 </h2>
