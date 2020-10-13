@@ -41,3 +41,43 @@ Detalhes:
 <p align="center">
  <img src="https://user-images.githubusercontent.com/60788150/95810618-c6f73300-0ce7-11eb-85a9-25390d29cf23.PNG" >
 </p>
+
+<br/>
+
+<h2>
+Layout Figma
+</h2>
+<p>
+Para acessar o Layout do projeto utilize o link: https://www.figma.com/file/aekAxrKlHtaQeMtHPnoTvN/Cangooroo?node-id=0%3A1
+</p>
+
+<h2>
+ Como usar:
+</h2>
+<p>
+Para clonar e rodar esta aplicação, é necessário ter o Git e o Node.js instalado em seu computador.
+</p>
+    # Clonar esse repositório
+    **$ git clone https://github.com/ViniciusDelmondes/Cangooroo**
+    
+    # Navegue até o diretório
+    
+    # Abrir no VSCode
+   ** $ code .**
+
+<h2>
+ 
+<h2>
+ Front-end:
+</h2>
+<p>
+    # Navegue até o diretório
+    
+    # Instale as dependências necessarias
+   ** $ npm install**
+    
+    # Rode
+    **$ npm start**
+    
+    # running on port 4200
+</p>
