@@ -33,3 +33,11 @@ Detalhes:
 <p align="center">
  <img src="https://user-images.githubusercontent.com/60788150/95810340-1b4de300-0ce7-11eb-939f-845823d3918d.PNG" >
 </p>
+
+<br/>
+
+<h3 align="center"> Responsividade </h3>
+<br/>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/60788150/95810618-c6f73300-0ce7-11eb-85a9-25390d29cf23.PNG" >
+</p>
