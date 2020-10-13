@@ -57,7 +57,7 @@ Para acessar o Layout do projeto utilize o link: https://www.figma.com/file/aekA
 <p>
 Para clonar e rodar esta aplicação, é necessário ter o Git e o Node.js instalado em seu computador.
 </p>
-    # Clonar esse repositório
+    # Clonar esse repositório </br>
     **$ git clone https://github.com/ViniciusDelmondes/Cangooroo**
     
     # Navegue até o diretório
